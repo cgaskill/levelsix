@@ -1,7 +1,8 @@
 {
-  "name": "Spring Boot Heroku Demo",
-  "description": "This is a small demo application for showing how to run a Spring Boot application on Heroku.",
-  "repository": "https://github.com/kissaten/spring-boot-heroku-demo",
+  "name": "Level Six - D&D",
+  "description": "This is a pet project for storing D&D information.",
+  "repository": "https://github.com/cgaskill/levelsix",
+  "success_url": "/",
   "image": "heroku/java",
   "addons": [ "heroku-postgresql" ]
 }

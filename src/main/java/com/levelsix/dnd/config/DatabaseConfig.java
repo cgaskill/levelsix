@@ -1,4 +1,4 @@
-package com.levelsix.dnd;
+package com.levelsix.dnd.config;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 import org.springframework.context.annotation.Bean;
