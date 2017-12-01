@@ -1,6 +1,6 @@
-package com.levelsix.dnd.user;
+package com.levelsix.site.user;
 
-import com.levelsix.dnd.user.domain.UserDto;
+import com.levelsix.site.user.domain.UserDto;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;

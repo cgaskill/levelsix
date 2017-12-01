@@ -1,7 +1,6 @@
-package com.levelsix.dnd.user.domain;
+package com.levelsix.site.user.domain;
 
-import com.levelsix.dnd.user.AuthorityRole;
-import com.levelsix.dnd.user.domain.User;
+import com.levelsix.site.user.AuthorityRole;
 import org.springframework.security.core.GrantedAuthority;
 
 import javax.persistence.*;

@@ -1,9 +1,7 @@
-package com.levelsix.dnd.user;
+package com.levelsix.site.user;
 
-import com.levelsix.dnd.user.domain.User;
-import org.springframework.context.ApplicationContext;
+import com.levelsix.site.user.domain.User;
 import org.springframework.security.core.context.SecurityContextHolder;
-import org.springframework.security.core.userdetails.UserDetails;
 
 /**
  * Created by cgaskill on 5/14/16.

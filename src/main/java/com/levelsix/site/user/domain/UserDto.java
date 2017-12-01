@@ -1,12 +1,21 @@
-package com.levelsix.dnd.user.domain;
+package com.levelsix.site.user.domain;
+
+import org.hibernate.validator.constraints.Email;
+
+import javax.validation.constraints.Min;
+import javax.validation.constraints.NotNull;
 
 /**
  * Created by cgaskill on 5/14/16.
  */
 public class UserDto {
-    // TODO add validation checking
+    @Email
+    @NotNull
     private String email;
+    @NotNull
     private String name;
+    @Min(value = 5)
+    @NotNull
     private String password;
 
     public String getEmail() {

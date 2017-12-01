@@ -1,7 +1,7 @@
-package com.levelsix.dnd.user;
+package com.levelsix.site.user;
 
-import com.levelsix.dnd.user.domain.User;
-import com.levelsix.dnd.user.domain.UserDto;
+import com.levelsix.site.user.domain.User;
+import com.levelsix.site.user.domain.UserDto;
 import org.springframework.security.core.userdetails.UserDetailsService;
 
 import java.util.Optional;
@@ -15,8 +15,4 @@ public interface UserService extends UserDetailsService {
     Optional<User> getUserByEmail(String email);
 
     Optional<User> getUserById(long id);
-
-//    Optional<User> getUserByEmail(String email);
-
-//    Collection<User> getAllUsers();
 }

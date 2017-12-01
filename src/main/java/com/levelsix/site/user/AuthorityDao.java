@@ -1,6 +1,6 @@
-package com.levelsix.dnd.user;
+package com.levelsix.site.user;
 
-import com.levelsix.dnd.user.domain.Authority;
+import com.levelsix.site.user.domain.Authority;
 import org.springframework.data.repository.CrudRepository;
 
 /**

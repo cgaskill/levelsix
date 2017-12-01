@@ -1,6 +1,6 @@
-# Level Six - DND
+# Level Six
 
-This is a pet project to keep track of my character information as well as a spell cheat sheet.
+This is a pet project to test different technologies
 
 ## License
 

@@ -1,8 +1,8 @@
-package com.levelsix.dnd.user;
+package com.levelsix.site.user;
 
-import com.levelsix.dnd.user.domain.Authority;
-import com.levelsix.dnd.user.domain.User;
-import com.levelsix.dnd.user.domain.UserDto;
+import com.levelsix.site.user.domain.Authority;
+import com.levelsix.site.user.domain.User;
+import com.levelsix.site.user.domain.UserDto;
 import org.hibernate.Hibernate;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.userdetails.UserDetails;

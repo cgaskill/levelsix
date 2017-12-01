@@ -1,6 +1,6 @@
-package com.levelsix.dnd.config;
+package com.levelsix.site.config;
 
-import com.levelsix.dnd.user.UserService;
+import com.levelsix.site.user.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

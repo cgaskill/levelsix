@@ -1,4 +1,4 @@
-package com.levelsix.dnd.user.domain;
+package com.levelsix.site.user.domain;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

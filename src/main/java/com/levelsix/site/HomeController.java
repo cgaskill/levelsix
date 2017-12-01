@@ -13,16 +13,20 @@
  * See the License for the specific language governing permissions and
  * limitations under the License.
  */
-package com.levelsix.dnd;
+package com.levelsix.site;
 
-import org.springframework.boot.SpringApplication;
-import org.springframework.boot.autoconfigure.SpringBootApplication;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.ModelMap;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
 
-@SpringBootApplication
-public class Application {
+@Controller
+@RequestMapping("/")
+public class HomeController {
 
-    public static void main(String[] args) {
-        SpringApplication.run(Application.class, args);
+    @RequestMapping(method = RequestMethod.GET)
+    public String home(ModelMap model) {
+        return "home";
     }
 
 }
