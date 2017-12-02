@@ -1,6 +1,6 @@
 {
-  "name": "Level Six - D&D",
-  "description": "This is a pet project for storing D&D information.",
+  "name": "Level Six",
+  "description": "This is a pet project.",
   "repository": "https://github.com/cgaskill/levelsix",
   "success_url": "/",
   "image": "heroku/java",
